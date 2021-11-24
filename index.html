@@ -7,11 +7,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Home | Fly-Buy</title>
   <link rel="stylesheet" href="CSS_FOLDER/megamen.css">
-
+  
   <!-- fontawesomecdn -->
   <link rel="stylesheet" type="text/css"
     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
-
+  
   <!-- Box icons -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css" />
 
@@ -42,14 +42,14 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Style+Script&display=swap" rel="stylesheet">
-
+  
   <script src="JS_FOLDER/search.js"></script>
-
+  
 </head>
 
 <body class="pt-70px" data-bs-spy="scroll" data-bs-target=".navbar">
   <section id="header" class="jumbotron">
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
       <div class="container">
         <a class="navbar-brand">
           <div class="left1">
@@ -57,11 +57,11 @@
             <p>Fly more Buy more</p>
           </div>
         </a>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <i class="fas fa-bars"></i>
+          <span class="navbar-toggler-icon"></span>
         </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mx-auto mb-lg-0">
             <li class="nav-item">
               <a class="nav-link active " aria-current="page" href="#">Home</a>
@@ -84,7 +84,7 @@
             <li class="nav-item">
               <a class="nav-link" href="cont.html">Contact</a>
             </li>
-
+            
             <li class="nav-item">
               <div class="dropdown">
                 <button onclick="myFunction()" class="dropbtn"><i class="fas fa-search"></i></button>
@@ -101,8 +101,8 @@
               </div>
             </li>
           </ul>
-
-
+            
+          
           <a class="car nav-link" href="cart.html"><i class="fas fa-shopping-cart"></i></a>
           <a class="prof nav-link" href="login.html"><i class="fas fa-user-circle"></i></a>
           <a class="hear nav-link" href="#"><i class="fas fa-heart"></i></a>
@@ -111,7 +111,7 @@
     </nav>
   </section>
 
-  <section id="home" class="home pt-2">
+    <section id="home" class="home pt-2">
     <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-indicators">
         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
@@ -156,441 +156,441 @@
       </button>
     </div>
   </section>
-  <!-- Main -->
-  <main>
-    <section class="advert section" id="catt">
-      <div class="advert-center container">
-        <div class="advert-box">
-          <div class="dotted">
+    <!-- Main -->
+    <main>
+      <section class="advert section" id="catt">
+        <div class="advert-center container">
+          <div class="advert-box">
+            <div class="dotted">
+              <div class="content">
+                <h2>
+                  Girls <br />
+                  Clothing
+                </h2>
+                <h4>Worlds Best Brands</h4>
+              </div>
+            </div>
+            <img src="./images/GIRL.jpg" alt="">
+          </div>
+
+          <div class="advert-box">
+            <div class="dotted">
+              <div class="content">
+                <h2>
+                  Boys <br />
+                  Clothing
+                </h2>
+                <h4>Worlds Best Brands</h4>
+              </div>
+            </div>
+            <img src="./images/menn.jpg" alt="">
+          </div>
+
+          <div class="advert-box">
+            <div class="dotted">
+              <div class="content">
+                <h2>
+                  Accessories <br />
+                  & More
+                </h2>
+                <h4>Worlds Best Brands</h4>
+              </div>
+            </div>
+            <img src="./images/acc.jpg" alt="">
+          </div>
+        </div>
+      </section>
+
+      <!-- Featured -->
+      <section class="section featured" id="fet">
+        <div class="title">
+          <h1>Top-Brands</h1>
+        </div>
+
+        <div class="product-center container">
+          <div class="product">
+            <div class="product-header">
+              <img src="./images/body_pics/product6.jpg" alt="">
+              <ul class="icons">
+                <span><i class="bx bx-heart"></i></span>
+                <span><a href="cart.html"><i class="bx bx-cart"></i></a></span>
+                <span><i class="bx bx-search"></i></span>
+              </ul>
+            </div>
+            <div class="product-footer">
+              <a href="#">
+                <h3>Bright White Double Breasted Blazer</h3>
+              </a>
+              <div class="rating">
+                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star"></i>
+                <i class="bx bx-star"></i>
+              </div>
+              <h4 class="price">Rs.1,364</h4>
+            </div>
+          </div>
+          <div class="product">
+            <div class="product-header">
+              <img src="./images/body_pics/product1.jpg" alt="">
+              <ul class="icons">
+                <span><i class="bx bx-heart"></i></span>
+                <span><i class="bx bx-cart"></i></span>
+                <span><i class="bx bx-search"></i></span>
+              </ul>
+            </div>
+            <div class="product-footer">
+              <a href="#">
+                <h3>Bagpack red</h3>
+              </a>
+              <div class="rating">
+                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star"></i>
+                <i class="bx bx-star"></i>
+              </div>
+              <h4 class="price">Rs.600</h4>
+            </div>
+          </div>
+          <div class="product">
+            <div class="product-header">
+              <img src="./images/body_pics/product8.jpg" alt="">
+              <ul class="icons">
+                <span><i class="bx bx-heart"></i></span>
+                <span><i class="bx bx-cart"></i></span>
+                <span><i class="bx bx-search"></i></span>
+              </ul>
+            </div>
+            <div class="product-footer">
+              <a href="#">
+                <h3>High-heel Women black Boot</h3>
+              </a>
+              <div class="rating">
+                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star"></i>
+                <i class="bx bx-star"></i>
+              </div>
+              <h4 class="price">Rs.4,446</h4>
+            </div>
+          </div>
+          <div class="product">
+            <div class="product-header">
+              <img src="./images/body_pics/product7.jpg" alt="">
+
+              <ul class="icons">
+                <span><i class="bx bx-heart"></i></span>
+                <span><i class="bx bx-cart"></i></span>
+                <span><i class="bx bx-search"></i></span>
+              </ul>
+            </div>
+            <div class="product-footer">
+              <a href="#">
+                <h3>Leather Side-bag</h3>
+              </a>
+              <div class="rating">
+                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star"></i>
+                <i class="bx bx-star"></i>
+              </div>
+              <h4 class="price">Rs.778</h4>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--Latest -->
+      <section class="section featured" id="lat">
+        <div class="title">
+          <h1>Latest Products</h1>
+        </div>
+
+        <div class="product-center container">
+          <div class="product">
+            <div class="product-header">
+              <img src="./images/body_pics/product4.jpg" alt="">
+
+              <ul class="icons">
+                <span><i class="bx bx-heart"></i></span>
+                <span><i class="bx bx-cart"></i></span>
+                <span><i class="bx bx-search"></i></span>
+              </ul>
+            </div>
+            <div class="product-footer">
+              <a href="#">
+                <h3>Dolice Gabbana</h3>
+                <h5>Calfskin Coated Canvas Vulcano Backpack Black</h5>
+              </a>
+              <div class="rating">
+                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star"></i>
+                <i class="bx bx-star"></i>
+                <i class="bx bx-star"></i>
+              </div>
+              <h4 class="price">Rs.1,430</h4>
+            </div>
+          </div>
+          <div class="product">
+            <div class="product-header">
+              <img src="./images/body_pics/womts.jpg" alt="">
+
+              <ul class="icons">
+                <span><i class="bx bx-heart"></i></span>
+                <span><i class="bx bx-cart"></i></span>
+                <span><i class="bx bx-search"></i></span>
+              </ul>
+            </div>
+            <div class="product-footer">
+              <a href="#">
+                <h3>T-Shirt printed</h3>
+              </a>
+              <div class="rating">
+                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star"></i>
+              </div>
+              <h4 class="price">Rs.673</h4>
+            </div>
+          </div>
+          <div class="product">
+            <div class="product-header">
+              <img src="./images/body_pics/womt2.jpg" alt="">
+
+              <ul class="icons">
+                <span><i class="bx bx-heart"></i></span>
+                <span><i class="bx bx-cart"></i></span>
+                <span><i class="bx bx-search"></i></span>
+              </ul>
+            </div>
+            <div class="product-footer">
+              <a href="#">
+                <h3>Printed Kurti</h3>
+              </a>
+              <div class="rating">
+                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star"></i>
+                <i class="bx bx-star"></i>
+                <i class="bx bx-star"></i>
+              </div>
+              <h4 class="price">Rs.1,990</h4>
+            </div>
+          </div>
+          <div class="product">
+            <div class="product-header">
+              <img src="./images/body_pics/product2.jpg" alt="">
+
+              <ul class="icons">
+                <span><i class="bx bx-heart"></i></span>
+                <span><i class="bx bx-cart"></i></span>
+                <span><i class="bx bx-search"></i></span>
+              </ul>
+            </div>
+            <div class="product-footer">
+              <a href="#">
+                <h3>Blue T-Shirt for men</h3>
+              </a>
+              <div class="rating">
+                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star"></i>
+                <i class="bx bx-star"></i>
+                <i class="bx bx-star"></i>
+                <i class="bx bx-star"></i>
+              </div>
+              <h4 class="price">Rs.1,500</h4>
+            </div>
+          </div>
+          <div class="product">
+            <div class="product-header">
+              <img src="./images/body_pics/product11.jpg" alt="">
+
+              <ul class="icons">
+                <span><i class="bx bx-heart"></i></span>
+                <span><i class="bx bx-cart"></i></span>
+                <span><i class="bx bx-search"></i></span>
+              </ul>
+            </div>
+            <div class="product-footer">
+              <a href="#">
+                <h3>Gucci Watch</h3>
+              </a>
+              <div class="rating">
+                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star"></i>
+                <i class="bx bx-star"></i>
+              </div>
+              <h4 class="price">Rs.2,895</h4>
+            </div>
+          </div>
+          <div class="product">
+            <div class="product-header">
+              <img src="./images/body_pics/wom3.jpg" alt="">
+
+              <ul class="icons">
+                <span><i class="bx bx-heart"></i></span>
+                <span><i class="bx bx-cart"></i></span>
+                <span><i class="bx bx-search"></i></span>
+              </ul>
+            </div>
+            <div class="product-footer">
+              <a href="#">
+                <h3>Inspirational Yoga T-shirt for Women</h3>
+              </a>
+              <div class="rating">
+                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star"></i>
+              </div>
+              <h4 class="price">Rs.399</h4>
+            </div>
+          </div>
+          <div class="product">
+            <div class="product-header">
+              <img src="./images/body_pics/product14.jpg" alt="">
+
+              <ul class="icons">
+                <span><i class="bx bx-heart"></i></span>
+                <span><i class="bx bx-cart"></i></span>
+                <span><i class="bx bx-search"></i></span>
+              </ul>
+            </div>
+            <div class="product-footer">
+              <a href="#">
+                <h3>Women Boot </h3>
+              </a>
+              <div class="rating">
+                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star"></i>
+                <i class="bx bx-star"></i>
+              </div>
+              <h4 class="price">Rs.990</h4>
+            </div>
+          </div>
+          <div class="product">
+            <div class="product-header">
+              <img src="./images/pic5.jpg" alt="">
+
+              <ul class="icons">
+                <span><i class="bx bx-heart"></i></span>
+                <span><i class="bx bx-cart"></i></span>
+                <span><i class="bx bx-search"></i></span>
+              </ul>
+            </div>
+            <div class="product-footer">
+              <a href="#">
+                <h3>Kid's Shoe</h3>
+              </a>
+              <div class="rating">
+                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star"></i>
+                <i class="bx bx-star"></i>
+                <i class="bx bx-star"></i>
+              </div>
+              <h4 class="price">Rs.909</h4>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Product Banner -->
+      <section class="section" id="off"> 
+        <div class="product-banner">
+          <div class="left">
+            <img src="./images/men_watch.jpg" alt="" />
+          </div>
+          <div class="right">
             <div class="content">
-              <h2>
-                Girls <br />
-                Clothing
-              </h2>
-              <h4>Worlds Best Brands</h4>
+              <h2><span class="discount">50% </span> SALE</h2>
+              <h1>
+                <span>On</span>
+                <span>Mens watches</span>
+              </h1>
+              <a class="btn btn-danger" href="#">shop now</a>
             </div>
           </div>
-          <img src="./images/GIRL.jpg" alt="">
         </div>
+      </section>
 
-        <div class="advert-box">
-          <div class="dotted">
-            <div class="content">
-              <h2>
-                Boys <br />
-                Clothing
-              </h2>
-              <h4>Worlds Best Brands</h4>
+      <!-- Testimonials -->
+      <section class="section" id="abt">
+        <div class="title">
+          <h1>About Us</h1>
+        </div>
+        <div class="testimonial-center container">
+          <div class="testimonial">
+            <span>&ldquo;</span>
+            <div class="img-cover">
+              <img src="./images/new1.jpeg" alt="" />
             </div>
-          </div>
-          <img src="./images/menn.jpg" alt="">
-        </div>
+            <h4><b>Swapnonil Majumdar</b></h4>
+            <h6>Narula Institute Of Technology</h6>
+            <h6><b>Dept.</b>CSE(3rd Year)</h6>
 
-        <div class="advert-box">
-          <div class="dotted">
-            <div class="content">
-              <h2>
-                Accessories <br />
-                & More
-              </h2>
-              <h4>Worlds Best Brands</h4>
+          </div>
+          <div class="testimonial">
+            <span>&ldquo;</span>
+            <div class="img-cover">
+              <img src="./images/suvo.jpeg" alt="" />
             </div>
+            <h4><b>Suvodip Bhattacharjee</b></h4>
+            <h6>Narula Institute Of Technology</h6>
+            <h6><b>Dept.</b>CSE(3rd Year)</h6>
           </div>
-          <img src="./images/acc.jpg" alt="">
-        </div>
-      </div>
-    </section>
-
-    <!-- Featured -->
-    <section class="section featured" id="fet">
-      <div class="title">
-        <h1>Top-Brands</h1>
-      </div>
-
-      <div class="product-center container">
-        <div class="product">
-          <div class="product-header">
-            <img src="./images/body_pics/product6.jpg" alt="">
-            <ul class="icons">
-              <span><i class="bx bx-heart"></i></span>
-              <span><a href="cart.html"><i class="bx bx-cart"></i></a></span>
-              <span><i class="bx bx-search"></i></span>
-            </ul>
-          </div>
-          <div class="product-footer">
-            <a href="#">
-              <h3>Bright White Double Breasted Blazer</h3>
-            </a>
-            <div class="rating">
-              <i class="bx bxs-star"></i>
-              <i class="bx bxs-star"></i>
-              <i class="bx bxs-star"></i>
-              <i class="bx bxs-star"></i>
-              <i class="bx bx-star"></i>
+          <div class="testimonial">
+            <span>&ldquo;</span>
+            <div class="img-cover">
+              <img src="./images/ankita.jpg" alt="" />
             </div>
-            <h4 class="price">Rs.1,364</h4>
+            <h4><b>Ankita Roy</b></h4>
+            <h6>Narula Institute Of Technology</h6>
+            <h6><b>Dept.</b>BCA(2nd Year)</h6>
           </div>
-        </div>
-        <div class="product">
-          <div class="product-header">
-            <img src="./images/body_pics/product1.jpg" alt="">
-            <ul class="icons">
-              <span><i class="bx bx-heart"></i></span>
-              <span><i class="bx bx-cart"></i></span>
-              <span><i class="bx bx-search"></i></span>
-            </ul>
-          </div>
-          <div class="product-footer">
-            <a href="#">
-              <h3>Bagpack red</h3>
-            </a>
-            <div class="rating">
-              <i class="bx bxs-star"></i>
-              <i class="bx bxs-star"></i>
-              <i class="bx bxs-star"></i>
-              <i class="bx bxs-star"></i>
-              <i class="bx bx-star"></i>
+          <div class="testimonial">
+            <span>&ldquo;</span>
+            <div class="img-cover">
+              <img src="./images/Rupma.jpeg" alt="" />
             </div>
-            <h4 class="price">Rs.600</h4>
+            <h4><b>Rupma Bhaumik</b></h4>
+            <h6>Narula Institute Of Technology</h6>
+            <h6><b>Dept.</b>BCA(2nd Year)</h6>
           </div>
-        </div>
-        <div class="product">
-          <div class="product-header">
-            <img src="./images/body_pics/product8.jpg" alt="">
-            <ul class="icons">
-              <span><i class="bx bx-heart"></i></span>
-              <span><i class="bx bx-cart"></i></span>
-              <span><i class="bx bx-search"></i></span>
-            </ul>
-          </div>
-          <div class="product-footer">
-            <a href="#">
-              <h3>High-heel Women black Boot</h3>
-            </a>
-            <div class="rating">
-              <i class="bx bxs-star"></i>
-              <i class="bx bxs-star"></i>
-              <i class="bx bxs-star"></i>
-              <i class="bx bxs-star"></i>
-              <i class="bx bx-star"></i>
+          <div class="testimonial">
+            <span>&ldquo;</span>
+            <div class="img-cover">
+              <img src="./images/Shreya.jpeg" alt="" />
             </div>
-            <h4 class="price">Rs.4,446</h4>
+            <h4><b>Sreya Halder</b></h4>
+            <h6>Narula Institute Of Technology</h6>
+            <h6><b>Dept.</b>BCA(2nd Year)</h6>
           </div>
-        </div>
-        <div class="product">
-          <div class="product-header">
-            <img src="./images/body_pics/product7.jpg" alt="">
-
-            <ul class="icons">
-              <span><i class="bx bx-heart"></i></span>
-              <span><i class="bx bx-cart"></i></span>
-              <span><i class="bx bx-search"></i></span>
-            </ul>
-          </div>
-          <div class="product-footer">
-            <a href="#">
-              <h3>Leather Side-bag</h3>
-            </a>
-            <div class="rating">
-              <i class="bx bxs-star"></i>
-              <i class="bx bxs-star"></i>
-              <i class="bx bxs-star"></i>
-              <i class="bx bxs-star"></i>
-              <i class="bx bx-star"></i>
+          <div class="testimonial">
+            <span>&ldquo;</span>
+            <div class="img-cover">
+              <img src="./images/neha.jpeg" alt="" />
             </div>
-            <h4 class="price">Rs.778</h4>
+            <h4><b>Neha Debnath</b></h4>
+            <h6>Narula Institute Of Technology</h6>
+            <h6><b>Dept.</b>BCA(2nd Year)</h6>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <!--Latest -->
-    <section class="section featured" id="lat">
-      <div class="title">
-        <h1>Latest Products</h1>
-      </div>
-
-      <div class="product-center container">
-        <div class="product">
-          <div class="product-header">
-            <img src="./images/body_pics/product4.jpg" alt="">
-
-            <ul class="icons">
-              <span><i class="bx bx-heart"></i></span>
-              <span><i class="bx bx-cart"></i></span>
-              <span><i class="bx bx-search"></i></span>
-            </ul>
-          </div>
-          <div class="product-footer">
-            <a href="#">
-              <h3>Dolice Gabbana</h3>
-              <h5>Calfskin Coated Canvas Vulcano Backpack Black</h5>
-            </a>
-            <div class="rating">
-              <i class="bx bxs-star"></i>
-              <i class="bx bxs-star"></i>
-              <i class="bx bxs-star"></i>
-              <i class="bx bx-star"></i>
-              <i class="bx bx-star"></i>
-            </div>
-            <h4 class="price">Rs.1,430</h4>
-          </div>
-        </div>
-        <div class="product">
-          <div class="product-header">
-            <img src="./images/body_pics/womts.jpg" alt="">
-
-            <ul class="icons">
-              <span><i class="bx bx-heart"></i></span>
-              <span><i class="bx bx-cart"></i></span>
-              <span><i class="bx bx-search"></i></span>
-            </ul>
-          </div>
-          <div class="product-footer">
-            <a href="#">
-              <h3>T-Shirt printed</h3>
-            </a>
-            <div class="rating">
-              <i class="bx bxs-star"></i>
-              <i class="bx bxs-star"></i>
-              <i class="bx bxs-star"></i>
-              <i class="bx bxs-star"></i>
-              <i class="bx bxs-star"></i>
-            </div>
-            <h4 class="price">Rs.673</h4>
-          </div>
-        </div>
-        <div class="product">
-          <div class="product-header">
-            <img src="./images/body_pics/womt2.jpg" alt="">
-
-            <ul class="icons">
-              <span><i class="bx bx-heart"></i></span>
-              <span><i class="bx bx-cart"></i></span>
-              <span><i class="bx bx-search"></i></span>
-            </ul>
-          </div>
-          <div class="product-footer">
-            <a href="#">
-              <h3>Printed Kurti</h3>
-            </a>
-            <div class="rating">
-              <i class="bx bxs-star"></i>
-              <i class="bx bxs-star"></i>
-              <i class="bx bxs-star"></i>
-              <i class="bx bx-star"></i>
-              <i class="bx bx-star"></i>
-            </div>
-            <h4 class="price">Rs.1,990</h4>
-          </div>
-        </div>
-        <div class="product">
-          <div class="product-header">
-            <img src="./images/body_pics/product2.jpg" alt="">
-
-            <ul class="icons">
-              <span><i class="bx bx-heart"></i></span>
-              <span><i class="bx bx-cart"></i></span>
-              <span><i class="bx bx-search"></i></span>
-            </ul>
-          </div>
-          <div class="product-footer">
-            <a href="#">
-              <h3>Blue T-Shirt for men</h3>
-            </a>
-            <div class="rating">
-              <i class="bx bxs-star"></i>
-              <i class="bx bxs-star"></i>
-              <i class="bx bx-star"></i>
-              <i class="bx bx-star"></i>
-              <i class="bx bx-star"></i>
-            </div>
-            <h4 class="price">Rs.1,500</h4>
-          </div>
-        </div>
-        <div class="product">
-          <div class="product-header">
-            <img src="./images/body_pics/product11.jpg" alt="">
-
-            <ul class="icons">
-              <span><i class="bx bx-heart"></i></span>
-              <span><i class="bx bx-cart"></i></span>
-              <span><i class="bx bx-search"></i></span>
-            </ul>
-          </div>
-          <div class="product-footer">
-            <a href="#">
-              <h3>Gucci Watch</h3>
-            </a>
-            <div class="rating">
-              <i class="bx bxs-star"></i>
-              <i class="bx bxs-star"></i>
-              <i class="bx bxs-star"></i>
-              <i class="bx bxs-star"></i>
-              <i class="bx bx-star"></i>
-            </div>
-            <h4 class="price">Rs.2,895</h4>
-          </div>
-        </div>
-        <div class="product">
-          <div class="product-header">
-            <img src="./images/body_pics/wom3.jpg" alt="">
-
-            <ul class="icons">
-              <span><i class="bx bx-heart"></i></span>
-              <span><i class="bx bx-cart"></i></span>
-              <span><i class="bx bx-search"></i></span>
-            </ul>
-          </div>
-          <div class="product-footer">
-            <a href="#">
-              <h3>Inspirational Yoga T-shirt for Women</h3>
-            </a>
-            <div class="rating">
-              <i class="bx bxs-star"></i>
-              <i class="bx bxs-star"></i>
-              <i class="bx bxs-star"></i>
-              <i class="bx bxs-star"></i>
-              <i class="bx bxs-star"></i>
-            </div>
-            <h4 class="price">Rs.399</h4>
-          </div>
-        </div>
-        <div class="product">
-          <div class="product-header">
-            <img src="./images/body_pics/product14.jpg" alt="">
-
-            <ul class="icons">
-              <span><i class="bx bx-heart"></i></span>
-              <span><i class="bx bx-cart"></i></span>
-              <span><i class="bx bx-search"></i></span>
-            </ul>
-          </div>
-          <div class="product-footer">
-            <a href="#">
-              <h3>Women Boot </h3>
-            </a>
-            <div class="rating">
-              <i class="bx bxs-star"></i>
-              <i class="bx bxs-star"></i>
-              <i class="bx bxs-star"></i>
-              <i class="bx bxs-star"></i>
-              <i class="bx bx-star"></i>
-            </div>
-            <h4 class="price">Rs.990</h4>
-          </div>
-        </div>
-        <div class="product">
-          <div class="product-header">
-            <img src="./images/pic5.jpg" alt="">
-
-            <ul class="icons">
-              <span><i class="bx bx-heart"></i></span>
-              <span><i class="bx bx-cart"></i></span>
-              <span><i class="bx bx-search"></i></span>
-            </ul>
-          </div>
-          <div class="product-footer">
-            <a href="#">
-              <h3>Kid's Shoe</h3>
-            </a>
-            <div class="rating">
-              <i class="bx bxs-star"></i>
-              <i class="bx bxs-star"></i>
-              <i class="bx bxs-star"></i>
-              <i class="bx bx-star"></i>
-              <i class="bx bx-star"></i>
-            </div>
-            <h4 class="price">Rs.909</h4>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Product Banner -->
-    <section class="section" id="off">
-      <div class="product-banner">
-        <div class="left">
-          <img src="./images/men_watch.jpg" alt="" />
-        </div>
-        <div class="right">
-          <div class="content">
-            <h2><span class="discount">50% </span> SALE</h2>
-            <h1>
-              <span>On</span>
-              <span>Mens watches</span>
-            </h1>
-            <a class="btn btn-danger" href="#">shop now</a>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Testimonials -->
-    <section class="section" id="abt">
-      <div class="title">
-        <h1>About Us</h1>
-      </div>
-      <div class="testimonial-center container">
-        <div class="testimonial">
-          <span>&ldquo;</span>
-          <div class="img-cover">
-            <img src="./images/new1.jpeg" alt="" />
-          </div>
-          <h4><b>Swapnonil Majumdar</b></h4>
-          <h6>Narula Institute Of Technology</h6>
-          <h6><b>Dept.</b>CSE(3rd Year)</h6>
-
-        </div>
-        <div class="testimonial">
-          <span>&ldquo;</span>
-          <div class="img-cover">
-            <img src="./images/suvo.jpeg" alt="" />
-          </div>
-          <h4><b>Suvodip Bhattacharjee</b></h4>
-          <h6>Narula Institute Of Technology</h6>
-          <h6><b>Dept.</b>CSE(3rd Year)</h6>
-        </div>
-        <div class="testimonial">
-          <span>&ldquo;</span>
-          <div class="img-cover">
-            <img src="./images/ankita.jpg" alt="" />
-          </div>
-          <h4><b>Ankita Roy</b></h4>
-          <h6>Narula Institute Of Technology</h6>
-          <h6><b>Dept.</b>BCA(2nd Year)</h6>
-        </div>
-        <div class="testimonial">
-          <span>&ldquo;</span>
-          <div class="img-cover">
-            <img src="./images/Rupma.jpeg" alt="" />
-          </div>
-          <h4><b>Rupma Bhaumik</b></h4>
-          <h6>Narula Institute Of Technology</h6>
-          <h6><b>Dept.</b>BCA(2nd Year)</h6>
-        </div>
-        <div class="testimonial">
-          <span>&ldquo;</span>
-          <div class="img-cover">
-            <img src="./images/Shreya.jpeg" alt="" />
-          </div>
-          <h4><b>Sreya Halder</b></h4>
-          <h6>Narula Institute Of Technology</h6>
-          <h6><b>Dept.</b>BCA(2nd Year)</h6>
-        </div>
-        <div class="testimonial">
-          <span>&ldquo;</span>
-          <div class="img-cover">
-            <img src="./images/neha.jpeg" alt="" />
-          </div>
-          <h4><b>Neha Debnath</b></h4>
-          <h6>Narula Institute Of Technology</h6>
-          <h6><b>Dept.</b>BCA(2nd Year)</h6>
-        </div>
-      </div>
-    </section>
-
-    <!-- BRANDS -->
+     <!-- BRANDS -->
     <section class="section brands">
       <div class="title">
         <h2><b>Shop by Brand</b></h2>
@@ -616,8 +616,8 @@
               <li class="glide__slide">
                 <img src="./images/zara_logo.jpeg" alt="">
               </li>
-
-
+              
+              
 
 
             </ul>
@@ -627,76 +627,76 @@
       </div>
     </section>
   </main>
-  </main>
+    </main>
 
-  <!-- footer -->
-  <section class="foot">
-    <footer class="footer">
-      <div class="container">
-        <div class="row">
-          <div class="op col-sm-3">
-            <h4>company</h4>
-            <hr>
-            <ul class="pp">
-              <li><a href="#" class="hvr-forward">about us</a></li>
-              <li><a href="#" class="hvr-forward">our services</a></li>
-              <li><a href="#" class="hvr-forward">privacy policy</a></li>
-              <li><a href="#" class="hvr-forward">affiliate program</a></li>
-            </ul>
-          </div>
-          <div class="op col-sm-3">
-            <h4>get help</h4>
-            <hr>
-            <ul>
-              <li><a href="#">FAQ</a></li>
-              <li><a href="#">shipping</a></li>
-              <li><a href="#">returns</a></li>
-              <li><a href="#">order status</a></li>
-              <li><a href="#">payment options</a></li>
-            </ul>
-          </div>
-          <div class="op col-sm-3">
-            <h4>online shop</h4>
-            <hr>
-            <ul>
-              <li><a href="#">watch</a></li>
-              <li><a href="#">bag</a></li>
-              <li><a href="#">shoes</a></li>
-              <li><a href="#">dress</a></li>
-            </ul>
-          </div>
-          <div class="op col-sm-3">
-            <h4>follow us</h4>
-            <hr>
-            <div class="social-media">
-              <div class="social-icons">
-                <a href="#">
-                  <i class="fab fa-facebook-f"></i>
-                </a>
-                <a href="#">
-                  <i class="fab fa-twitter"></i>
-                </a>
-                <a href="#">
-                  <i class="fab fa-instagram"></i>
-                </a>
-                <a href="#">
-                  <i class="fab fa-linkedin-in"></i>
-                </a>
+    <!-- footer -->
+    <section class="foot">
+      <footer class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="op col-sm-3">
+              <h4>company</h4>
+              <hr>
+              <ul class="pp">
+                <li><a href="#" class="hvr-forward">about us</a></li>
+                <li><a href="#" class="hvr-forward">our services</a></li>
+                <li><a href="#" class="hvr-forward">privacy policy</a></li>
+                <li><a href="#" class="hvr-forward">affiliate program</a></li>
+              </ul>
+            </div>
+            <div class="op col-sm-3">
+              <h4>get help</h4>
+              <hr>
+              <ul>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">shipping</a></li>
+                <li><a href="#">returns</a></li>
+                <li><a href="#">order status</a></li>
+                <li><a href="#">payment options</a></li>
+              </ul>
+            </div>
+            <div class="op col-sm-3">
+              <h4>online shop</h4>
+              <hr>
+              <ul>
+                <li><a href="#">watch</a></li>
+                <li><a href="#">bag</a></li>
+                <li><a href="#">shoes</a></li>
+                <li><a href="#">dress</a></li>
+              </ul>
+            </div>
+            <div class="op col-sm-3">
+              <h4>follow us</h4>
+              <hr>
+              <div class="social-media">
+                <div class="social-icons">
+                  <a href="#">
+                    <i class="fab fa-facebook-f"></i>
+                  </a>
+                  <a href="#">
+                    <i class="fab fa-twitter"></i>
+                  </a>
+                  <a href="#">
+                    <i class="fab fa-instagram"></i>
+                  </a>
+                  <a href="#">
+                    <i class="fab fa-linkedin-in"></i>
+                  </a>
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-      </div>
-    </footer>
-  </section>
+        </div>
+      </footer>
+    </section>
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-    crossorigin="anonymous"></script>
-  <!-- glide.js -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/glide.min.js"></script>
-  <script src="JS_FOLDER/slider.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"></script>
+      <!-- glide.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/glide.min.js"></script>
+    <script src="JS_FOLDER/slider.js"></script>
 </body>
 
 </html>

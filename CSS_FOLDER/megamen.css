@@ -23,7 +23,7 @@
 }
 body{
     overflow-x: hidden;
-    
+    padding-top:84px;
 }
 .navbar .left1{
     cursor: pointer;
