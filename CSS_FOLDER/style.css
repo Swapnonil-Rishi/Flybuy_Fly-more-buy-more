@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding:0;
+
+}
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+SC:wght@200&display=swap');
+body{
+    box-sizing: border-box;
+    font-family: 'Encode Sans SC', sans-serif; 
+    
+}
+p{
+    color:rgb(19, 19, 49);
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+    color:red;
+}
+h2{
+    font-size: 1.5rem;
+    text-transform: capitalize;
+}
+.main_cart{
+    background-color: white;
+}
+.product_img img{
+    min-width:200px;
+    max-height:200px;
+}
+.product_name{
+    color:black;
+    font-size:1.4rem;
+    text-transform:capitalize;
+    font-weight: 500;
+}
+.card-title p{
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+.card{
+    border: none;
+}
+.add_remove p{
+    font-size: 0.8rem;
+    margin-bottom: 0;
+}
+.price h3{
+    font-size:1rem;
+    font-weight:600;
+}
+.set-quantity{
+    position:relative;
+    display: flex;
+    white-space: nowrap;
+}
+.page-link{
+    line-height: 16px;
+    width: 45px;
+    display:flex;
+    justify-content: center;
+    font-size: 1rem;
+    color: rgb(77, 77, 77);
+}
+.page-item input{
+    line-height: 22px;
+    padding:3px;
+    font-size:15px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+.page-link:hover{
+    text-decoration: none;
+    outline: none !important;
+}
+.fa-heart:hover{
+    color: red;
+    transform: scale(1.5);
+}
+.page-link:focus{
+    box-shadow: none;
+}
+.price p{
+    font-size:1.1rem;
+
+}
+.card-body a{
+    color:black;
+}
+/* new */
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin: 20px auto;
+  border-radius: 75px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: lighter;
+  letter-spacing: 2px;
+  /* transition: 1s box-shadow; */
+}
+
+.btn:hover {
+  box-shadow: 0 5px 35px 0px rgba(0,0,0,.1);
+}
+
+.fa-trash-alt:hover {
+    transform: scale(1.5); 
+}
+#deldate{
+    text-align:left;
+}
+.page-link{
+    border-radius: 200px;
+}
+#sub1{
+    text-align: right;
+    margin-left: 5vw;
+    margin-top:-34px;
+    color:red;
+}
+#sub2{
+    text-align: right;
+    margin-left: 5vw;
+    margin-top:-34px;
+    color:red;
+}
